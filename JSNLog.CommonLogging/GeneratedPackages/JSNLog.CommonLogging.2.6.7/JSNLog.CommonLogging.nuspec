@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<package >
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
   <metadata>
     <id>JSNLog.CommonLogging</id>
     <version>2.6.7</version>
@@ -12,13 +12,8 @@
     <description>Installs JSNLog and configures it for use with Common.Logging. If you use Common.Logging and want to log client side JavaScript exceptions and other events in your server log, install this package.</description>
     <copyright>Copyright 2014</copyright>
     <tags>JavaScript logging exceptions Common.Logging</tags>
-      <dependencies>
-          <dependency id="JSNLog" version="2.6.6" />
-      </dependencies>
+    <dependencies>
+      <dependency id="JSNLog" version="2.6.6" />
+    </dependencies>
   </metadata>
-    <files>
-        <file src="InstallationDummyFile.txt" target="content\Scripts" />
-        <file src="install.ps1" target="tools" />
-        <file src="..\readme.txt" target="" />
-    </files>
 </package>
