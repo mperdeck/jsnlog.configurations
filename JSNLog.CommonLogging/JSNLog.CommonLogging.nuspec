@@ -13,7 +13,7 @@
     <copyright>Copyright 2014</copyright>
     <tags>JavaScript logging exceptions Common.Logging</tags>
       <dependencies>
-          <dependency id="JSNLog" version="2.6.7" />
+          <dependency id="JSNLog" version="2.6.6" />
       </dependencies>
   </metadata>
     <files>
