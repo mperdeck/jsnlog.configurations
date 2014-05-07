@@ -3,7 +3,7 @@
   <metadata>
     <id>JSNLog.NLog</id>
     <version>2.6.11</version>
-    <title>JSNLog.NLog</title>
+    <title>JSNLog.NLog - JavaScript Logging for NLog</title>
     <authors>Matt Perdeck</authors>
     <owners>Matt Perdeck</owners>
     <projectUrl>http://jsnlog.com</projectUrl>
