@@ -2,14 +2,14 @@
 <package >
   <metadata>
     <id>JSNLog.Elmah</id>
-    <version>2.6.12</version>
+    <version>2.7.0</version>
     <title>JSNLog.Elmah - JavaScript Logging for Elmah</title>
     <authors>Matt Perdeck</authors>
     <owners>Matt Perdeck</owners>
     <projectUrl>http://jsnlog.com</projectUrl>
     <iconUrl>http://jsnlog.com/Nuget/icon.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>Installs JSNLog and configures it for use with Elmah. If you use Elmah and want to log client side JavaScript exceptions and other events in your server log, install this package.</description>
+    <description>Log JavaScript errors and other client side events in your Elmah server side log. Installs JSNLog and configures it for use with Elmah.</description>
     <copyright>Copyright 2014</copyright>
     <tags>JavaScript logging exceptions Elmah</tags>
       <dependencies>
