@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>JSNLog.NLog</id>
-    <version>2.11.0</version>
+    <version>2.12.0</version>
     <title>JSNLog.NLog - JavaScript Logging for NLog</title>
     <authors>Matt Perdeck</authors>
     <owners>Matt Perdeck</owners>
@@ -10,13 +10,13 @@
     <iconUrl>http://jsnlog.com/Nuget/icon.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Log JavaScript errors and other client side events in your NLog server side log. Installs JSNLog and configures it for use with NLog.</description>
-    <copyright>Copyright 2014</copyright>
+    <copyright>Copyright 2015</copyright>
     <tags>JavaScript logging exceptions nlog</tags>
       <dependencies>
 	      <!-- Common.Logging.NLog20 does not work with Common.Logging versions lower than 2.2.0 -->
           <dependency id="Common.Logging" version="3.0.0" />
           <dependency id="Common.Logging.NLog20" version="3.0.0" />
-          <dependency id="JSNLog" version="2.11.0" />
+          <dependency id="JSNLog" version="2.12.0" />
       </dependencies>
   </metadata>
     <files>
