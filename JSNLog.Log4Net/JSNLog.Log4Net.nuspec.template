@@ -9,8 +9,8 @@
     <projectUrl>http://jsnlog.com</projectUrl>
     <iconUrl>http://jsnlog.com/Nuget/icon.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>Log JavaScript errors and other client side events in your Log4Net server side log. Installs JSNLog and configures it for use with Log4Net.</description>
-    <copyright>Copyright 2015</copyright>
+    <description>Log JavaScript errors and other client side events in your Log4Net server side log. Installs JSNLog and configures it for use with Log4Net. Use with ASP.NET 4.x.</description>
+    <copyright>Copyright 2016</copyright>
     <tags>JavaScript logging exceptions Log4Net</tags>
       <dependencies>
 	      <!-- Common.Logging.Log4Net1211 does not work with Common.Logging versions lower than 2.2.0 -->

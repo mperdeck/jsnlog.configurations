@@ -9,8 +9,8 @@
     <projectUrl>http://jsnlog.com</projectUrl>
     <iconUrl>http://jsnlog.com/Nuget/icon.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>Log JavaScript errors and other client side events in your NLog server side log. Installs JSNLog and configures it for use with NLog.</description>
-    <copyright>Copyright 2015</copyright>
+    <description>Log JavaScript errors and other client side events in your NLog server side log. Installs JSNLog and configures it for use with NLog. Use with ASP.NET 4.x.</description>
+    <copyright>Copyright 2016</copyright>
     <tags>JavaScript logging exceptions nlog</tags>
       <dependencies>
 	      <!-- Common.Logging.NLog20 does not work with Common.Logging versions lower than 2.2.0 -->

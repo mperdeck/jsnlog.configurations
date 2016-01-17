@@ -9,8 +9,8 @@
     <projectUrl>http://jsnlog.com</projectUrl>
     <iconUrl>http://jsnlog.com/Nuget/icon.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>Log JavaScript errors and other client side events in your Elmah server side log. Installs JSNLog and configures it for use with Elmah.</description>
-    <copyright>Copyright 2015</copyright>
+    <description>Log JavaScript errors and other client side events in your Elmah server side log. Installs JSNLog and configures it for use with Elmah. Use with ASP.NET 4.x.</description>
+    <copyright>Copyright 2016</copyright>
     <tags>JavaScript logging exceptions Elmah</tags>
       <dependencies>
           <dependency id="Common.Logging" version="3.0.0" />
