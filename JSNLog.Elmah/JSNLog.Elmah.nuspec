@@ -2,20 +2,20 @@
 <package >
   <metadata>
     <id>JSNLog.Elmah</id>
-    <version>2.15.1</version>
+    <version>2.16.0</version>
     <title>JSNLog.Elmah - JavaScript Logging for Elmah</title>
     <authors>Matt Perdeck</authors>
     <owners>Matt Perdeck</owners>
     <projectUrl>http://jsnlog.com</projectUrl>
     <iconUrl>http://jsnlog.com/Nuget/icon.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>Log JavaScript errors and other client side events in your Elmah server side log. Installs JSNLog and configures it for use with Elmah.</description>
-    <copyright>Copyright 2015</copyright>
+    <description>Log JavaScript errors and other client side events in your Elmah server side log. Installs JSNLog and configures it for use with Elmah. Use with ASP.NET 4.x.</description>
+    <copyright>Copyright 2016</copyright>
     <tags>JavaScript logging exceptions Elmah</tags>
       <dependencies>
           <dependency id="Common.Logging" version="3.0.0" />
           <dependency id="Common.Logging.Elmah.v2" version="1.0.1" />
-          <dependency id="JSNLog" version="2.15.1" />
+          <dependency id="JSNLog" version="2.16.0" />
       </dependencies>
   </metadata>
     <files>
