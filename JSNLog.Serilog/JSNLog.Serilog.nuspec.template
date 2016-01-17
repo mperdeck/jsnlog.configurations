@@ -9,12 +9,12 @@
     <projectUrl>http://jsnlog.com</projectUrl>
     <iconUrl>http://jsnlog.com/Nuget/icon.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>Log JavaScript errors and other client side events in your Serilog server side log. Installs JSNLog and configures it for use with Serilog.</description>
-    <copyright>Copyright 2015</copyright>
+    <description>Log JavaScript errors and other client side events in your Serilog server side log. Installs JSNLog and configures it for use with Serilog. Use with ASP.NET 4.x.</description>
+    <copyright>Copyright 2016</copyright>
     <tags>JavaScript logging exceptions Serilog</tags>
       <dependencies>
           <dependency id="Common.Logging" version="3.0.0" />
-          <dependency id="Common.Logging.Serilog.StructuredText" version="1.0.3" />
+          <dependency id="Common.Logging.Serilog.StructuredText" version="1.0.4" />
           <dependency id="JSNLog" version="__Version__" />
       </dependencies>
   </metadata>
