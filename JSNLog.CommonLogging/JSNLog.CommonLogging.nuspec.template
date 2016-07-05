@@ -13,7 +13,7 @@
     <copyright>Copyright 2016</copyright>
     <tags>JavaScript logging exceptions Common.Logging</tags>
     <dependencies>
-      <group targetFramework=".NETFramework4.0">
+      <group targetFramework=".NETFramework4.5">
 
           <!-- IMPORTANT
                The CommonLogging NuGet package and the JSNLog package have the same dependencies
@@ -38,7 +38,8 @@
 			      JSNLog project in its references) to the version that is actually installed in the project.
           --> 
           <dependency id="Microsoft.Owin" version="2.1.0" />
-          <dependency id="Microsoft.Bcl.Async" version="1.0.168" />
+
+        <!-- Use low minimum version to make installation easier with old code -->
           <dependency id="Newtonsoft.Json" version="4.0.1" />
       </group>
       <group targetFramework="DNX4.5.1">
