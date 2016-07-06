@@ -13,7 +13,7 @@
     <copyright>Copyright 2016</copyright>
     <tags>JavaScript logging exceptions Serilog</tags>
       <dependencies>
-          <dependency id="Common.Logging" version="3.1.0" />
+          <dependency id="Common.Logging" version="3.3.1" />
           <dependency id="Common.Logging.Serilog.StructuredText" version="1.0.5" />
           <dependency id="JSNLog" version="__Version__" />
       </dependencies>
