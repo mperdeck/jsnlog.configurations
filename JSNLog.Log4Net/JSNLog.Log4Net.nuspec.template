@@ -15,7 +15,7 @@
       <dependencies>
 	      <!-- Common.Logging.Log4Net.Universal does not work with Common.Logging versions lower than 2.2.0 -->
           <dependency id="Common.Logging" version="3.3.1" />
-          <dependency id="Common.Logging.Log4Net.Universal" version="1.0.0" />
+          <dependency id="Common.Logging.Log4Net.Universal" version="1.0.1" />
           <dependency id="JSNLog" version="__Version__" />
       </dependencies>
   </metadata>
