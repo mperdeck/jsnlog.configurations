@@ -10,10 +10,10 @@
     <iconUrl>http://jsnlog.com/Nuget/icon.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Log JavaScript errors and other client side events in your Common.Logging based server side log. Installs JSNLog and configures it for use with Common.Logging. Use with ASP.NET 4.x.</description>
-    <copyright>Copyright 2016</copyright>
+    <copyright>Copyright 2017</copyright>
     <tags>JavaScript logging exceptions Common.Logging</tags>
     <dependencies>
-      <group targetFramework=".NETFramework4.0">
+      <group targetFramework=".NETFramework4.5.2">
         <!-- IMPORTANT
                The CommonLogging NuGet package and the JSNLog package have the same dependencies
                and files. This because CommonLogging is purely a convenience package - JSNLog
@@ -38,23 +38,16 @@
         -->
         <dependency id="Microsoft.Owin" version="2.1.0" />
         
-        <!-- 
-		    Required because async/await not supported in .Net below 4.5
-		    When installed in a project that targets 4.5 or higher, Microsoft.Bcl.Async correctly doesn't add anything.
-		    -->
-		    <dependency id="Microsoft.Bcl.Async" version="1.0.168" />
-
         <!-- Use low minimum version to make installation easier with old code -->
-        <dependency id="Newtonsoft.Json" version="4.0.1" />
+        <dependency id="Newtonsoft.Json" version="9.0.1" />
       </group>
     </dependencies>
   </metadata>
     <files>
-		<file src="..\..\jsnlog\src\JSNLog\bin\Release\net40\jsnlog.*"     target="lib\net40\" />
-
-		<file src="..\..\jsnlog\src\JSNLog\NuGet\content\Scripts\*.*"   target="content\Scripts" />
-		<file src="..\..\jsnlog\src\JSNLog\NuGet\content\App_Start\*.*" target="content\App_Start" />
-		<file src="..\..\jsnlog\src\JSNLog\NuGet\content\*.*"           target="content" />
-		<file src="..\..\jsnlog\src\JSNLog\NuGet\readme.txt"            target="" />
+    <file src="..\..\jsnlog\jsnlog\bin\Release\net452\jsnlog.*"     target="lib\net452\" />
+    <file src="..\..\jsnlog\jsnlog\NuGet\content\Scripts\*.*"   target="content\Scripts" />
+    <file src="..\..\jsnlog\jsnlog\NuGet\content\App_Start\*.*" target="content\App_Start" />
+    <file src="..\..\jsnlog\jsnlog\NuGet\content\*.*"           target="content" />
+    <file src="..\..\jsnlog\jsnlog\NuGet\readme.txt"            target="" />
     </files>
 </package>
