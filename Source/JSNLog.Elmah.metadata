@@ -1,0 +1,4 @@
+Id: JSNLog.Elmah
+LoggingPackageName: Elmah 
+LoggingPackageDependency: <dependency id="Common.Logging.Elmah.v2" version="1.0.2" />
+---

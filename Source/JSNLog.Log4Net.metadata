@@ -1,0 +1,4 @@
+Id: JSNLog.Log4Net
+LoggingPackageName: Log4Net 
+LoggingPackageDependency: <dependency id="Common.Logging.Log4Net.Universal" version="1.2.0" />
+---

@@ -1,0 +1,4 @@
+Id: JSNLog.Serilog
+LoggingPackageName: Serilog 
+LoggingPackageDependency: <dependency id="Common.Logging.Serilog.StructuredText" version="1.0.5" />
+---
