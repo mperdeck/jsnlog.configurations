@@ -1,4 +1,0 @@
-
-Some of these packages (esp. CommonLogging) have hardcoded relative links to JSNLog and jsnlog.js.
-Need to fix those links if moving these dirs.
-
