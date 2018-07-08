@@ -3,14 +3,18 @@
 #
 # During a build, first process all .template files (replacing __Version__ with final version), then run this file.
 
+function CopyContentFiles([string]$packageId)
+{
+	xcopy  Source\content\App_Start\*.* FinalPackages\$packageId\content\App_Start\*.* /e /q
+	xcopy  Source\content\Scripts\*.* FinalPackages\$packageId\content\Scripts\*.* /e /q
+}
+
 wyam --input .\Source --output .\FinalPackages
 
+CopyContentFiles "JSNLog.Elmah" 
+CopyContentFiles "JSNLog.Log4Net" 
+CopyContentFiles "JSNLog.NLog" 
+CopyContentFiles "JSNLog.Serilog" 
 
-xcopy  Source\content\*.* FinalPackages\JSNLog.Elmah\content\*.* /e /q
-xcopy  Source\content\*.* FinalPackages\JSNLog.Log4Net\content\*.* /e /q
-xcopy  Source\content\*.* FinalPackages\JSNLog.NLog\content\*.* /e /q
-xcopy  Source\content\*.* FinalPackages\JSNLog.Serilog\content\*.* /e /q
 
-
-copy Source\web.config.transform.nlog FinalPackages\JSNLog.NLog\web.config.transform
 

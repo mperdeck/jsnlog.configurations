@@ -1,7 +1,10 @@
 <configuration>
     <configSections>
         <section name="jsnlog" type="JSNLog.ConfigurationSectionHandler, JSNLog" requirePermission="false"/>
+        {{ConfigSectionAddition}}
     </configSections>
+
+    {{ConfigurationAddition}}
     
     <jsnlog productionLibraryPath="~/Scripts/jsnlog.min.js" >
     </jsnlog>
