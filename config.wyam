@@ -12,3 +12,18 @@ Pipelines.Add(
     Meta("RelativeFilePath", @doc.Get("Id", "DefaultId") + "\\" + @doc.Get("Id", "DefaultId") + ".nuspec"),
     WriteFiles()
 );
+
+// Copy the readme files. 
+// Which readme file is used depends on the ReadMeFile meta in each .nuspec file.
+Pipelines.Add(
+	ReadFiles("*.metadata"),
+	FrontMatter(Yaml()),  // Move the frontmatter to metadata
+    Meta("ReadMeContent", FileSystem.GetInputFile((string)@doc["ReadMeFile"]).ReadAllText()),
+	Append(@doc["ReadMeContent"]),
+	Meta("RelativeFilePath", @doc.Get("Id", "DefaultId") + "\\readme.txt"),
+    WriteFiles()
+);
+
+
+
+

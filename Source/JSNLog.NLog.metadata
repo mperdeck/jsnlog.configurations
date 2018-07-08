@@ -2,4 +2,5 @@ Id: JSNLog.NLog
 LoggingPackageName: NLog 
 LoggingPackageDependency: <dependency id="Common.Logging.NLog20" version="3.3.1" />
 WebConfigTransformFile: <file src="web.config.transform" target="content" />
+ReadMeFile: readme.txt
 ---
