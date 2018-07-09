@@ -15,6 +15,7 @@ CopyContentFiles "JSNLog.Elmah"
 CopyContentFiles "JSNLog.Log4Net" 
 CopyContentFiles "JSNLog.NLog" 
 CopyContentFiles "JSNLog.Serilog" 
+CopyContentFiles "JSNLog.CommonLogging" 
 
 
 

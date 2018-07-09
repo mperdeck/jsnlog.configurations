@@ -8,7 +8,6 @@ Pipelines.Add(
     Replace("{{Id}}", @doc.Get("Id", "DefaultId")), 
     Replace("{{LoggingPackageName}}", @doc.Get("LoggingPackageName", "DefaultLoggingPackageName")), 
     Replace("{{LoggingPackageDependency}}", @doc.Get("LoggingPackageDependency", "")), 
-    Replace("{{WebConfigTransformFile}}", @doc.Get("WebConfigTransformFile", "")), 
     Meta("RelativeFilePath", @doc.Get("Id", "DefaultId") + "\\" + @doc.Get("Id", "DefaultId") + ".nuspec"),
     WriteFiles()
 );

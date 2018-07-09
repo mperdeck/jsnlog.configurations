@@ -24,6 +24,5 @@
         <file src="content\App_Start\*.*" target="content\App_Start" />
         <file src="content\web.config.transform" target="content" />
         <file src="readme.txt" target="" />
-        {{WebConfigTransformFile}}
     </files>
 </package>
