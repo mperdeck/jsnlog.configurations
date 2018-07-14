@@ -2,6 +2,6 @@
 JSNLog is not yet fully installed
 ==================================
 
-To finish the installation, one more step needs to be done. See
+To finish the installation, visit:
 
-http://jsnlog.com/Documentation/DownloadInstall#addtoyourpages
+http://jsnlog.com/Documentation/DownloadInstall/ForAspNetFramework#addtoyourpages
