@@ -1,0 +1,12 @@
+The files in directory Source\content\Scripts are copied by the 
+jsnlog.js/minify.bat 
+script
+
+When somebody runs 
+nuget update-package
+to update their version of JSNLog,
+the changes made by the old version to web.config are rolled back, and then the new version
+makes its own changes. Same goes for the contents of the Scripts directory.
+
+This means that if you were to release a version of JSNLog that does not have script files,
+then if somebody upgrades, they will magically lose their script files and their site will break.
