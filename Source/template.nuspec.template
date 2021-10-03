@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>{{Id}}</id>
-    <version>__Version__</version>
+    <version>__FrameworkVersion__</version>
     <title>{{Id}} - JavaScript Logging for {{LoggingPackageName}}</title>
     <authors>Matt Perdeck</authors>
     <owners>Matt Perdeck</owners>
@@ -15,7 +15,7 @@
       <dependencies>
           <dependency id="Common.Logging" version="3.3.1" />
           {{LoggingPackageDependency}}
-          <dependency id="JSNLog" version="__Version__" />
+          <dependency id="JSNLog" version="__FrameworkVersion__" />
 		  <dependency id="WebActivatorEx" version="2.0.0" />
       </dependencies>
   </metadata>

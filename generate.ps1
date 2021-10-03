@@ -1,7 +1,7 @@
 # Before running this batch file, install wyam
 # https://wyam.io
 #
-# During a build, first process all .template files (replacing __Version__ with final version), then run this file.
+# During a build, first process all .template files (replacing __FrameworkVersion__ with final version), then run this file.
 
 function CopyContentFiles([string]$packageId)
 {
